@@ -1,16 +1,29 @@
-# tasky
+# Tasky - Integrated Task Management App 🚀
 
-A new Flutter project.
+This project is a comprehensive Flutter application developed during my 3-week internship. It combines UI building, state management, and data persistence into a single functional app.
 
-## Getting Started
+## 📋 Internship Tasks Coverage
 
-This project is a starting point for a Flutter application.
+### Week 1: UI & Navigation
+- **Login System:** Built a responsive Login Screen with `TextFormFields` for email/password.
+- **Validation:** Implemented form validation for email format and empty password fields.
+- **Navigation:** Used `Navigator` to move from Login to the Home Screen.
 
-A few resources to get you started if this is your first Flutter project:
+### Week 2: Data Management
+- **State Management:** Used `setState` to handle real-time UI updates for the task list.
+- **Persistent Storage:** Integrated `SharedPreferences` to ensure tasks remain saved even after the app restarts.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Week 3: Final Project & Enhancements
+- **Core Features:** Users can Add, Delete (Swipe-to-delete), and Mark tasks as complete.
+- **UI/UX:** Added a custom App Bar, professional Icons, and a clean Blue-theme UI.
+- **Bonus:** Included a custom **Splash Screen** with animation on app startup.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Setup Instructions
+1. Clone the repository: `git clone git clone https://github.com/RoshanayFatima-Dev/Tasky-Task-Management-App.git`
+2. Install dependencies: `flutter pub get`
+3. Run the app: `flutter run`
+
+## 📱 Features at a Glance
+- Local data persistence with SharedPreferences.
+- Animated Splash Screen (Bonus).
+- Secure-style Login UI.
